@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="weak-assert">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.6" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FB7185"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#334155" stroke-width="1" opacity="0.25"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)" opacity="0.35"/>
+  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+  
+  <rect x="64" y="70" width="152" height="152" rx="36" fill="#111827" stroke="#FB7185" stroke-width="3"/>
+  <path d="M98 154 L132 188 L194 112" fill="none" stroke="#FB7185" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M196 96 L196 128" stroke="#F59E0B" stroke-width="7" stroke-linecap="round"/>
+  <path d="M196 146 L196 208" stroke="#F59E0B" stroke-width="7" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <text x="262" y="124" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#F8FAFC">weak-assert</text>
+  <text x="264" y="166" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="21" fill="#CBD5E1">Find the tests that run your code but never check it.</text>
+  <rect x="262.0" y="206" width="69.8" height="34" rx="17" fill="#0F172A" stroke="#334155"/><text x="296.9" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">8 rules</text><rect x="343.8" y="206" width="143.8" height="34" rx="17" fill="#0F172A" stroke="#334155"/><text x="415.7" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">zero dependencies</text><rect x="499.6" y="206" width="99.4" height="34" rx="17" fill="#0F172A" stroke="#334155"/><text x="549.3" y="228" text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#94A3B8">Python 3.9+</text>
+  <text x="1160" y="96" text-anchor="end" font-family="JetBrains Mono, Consolas, monospace" font-size="64" font-weight="700" fill="#FB7185" opacity="0.09">CLI</text>
+</svg>
